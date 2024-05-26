@@ -1,9 +1,14 @@
 module FractionalMFGs
 
 # Write your package code here.
-function testfunc(x=1, y=2)
-    print("geir")
-    return x*y
-end
+    using LinearAlgebra;
+    using SpecialFunctions: gamma, loggamma, zeta
+
+    include("numerical_Hamiltonian.jl")
+    include("fractionalLaplacian.jl")
+    include("transportOperator.jl")
+    include("HJB_solve.jl")
+    include("FPK_solve.jl")
+    include("MFG_solve.jl")
 
 end
