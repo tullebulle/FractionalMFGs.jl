@@ -2,7 +2,7 @@
 
 julia_version = "1.10.2"
 manifest_format = "2.0"
-project_hash = "4ce4cc3f91687f47d21ae4ed1e76461d6fbc0069"
+project_hash = "3dfefb5d8efd855c030a561ada13ceb8a6b3de37"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra", "Requires"]
@@ -779,6 +779,12 @@ deps = ["DataAPI", "DataStructures", "LinearAlgebra", "LogExpFunctions", "Missin
 git-tree-sha1 = "5cf7606d6cef84b543b483848d4ae08ad9832b21"
 uuid = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 version = "0.34.3"
+
+[[deps.StyledStrings]]
+deps = ["TOML"]
+git-tree-sha1 = "8e2a8d6d7c749419d8b9a7f9ca85f7a74640cc57"
+uuid = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
+version = "1.0.2"
 
 [[deps.SuiteSparse_jll]]
 deps = ["Artifacts", "Libdl", "libblastrampoline_jll"]
