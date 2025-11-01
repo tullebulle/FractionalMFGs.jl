@@ -1,3 +1,9 @@
 *.jl.*.cov
 *.jl.cov
 *.jl.mem
+experiments/MFG_convergence_rate_runs/
+experiments/new_MFG_convergence_rate_runs/
+experiments/new_MFG_iteration_plots/
+experiments/new_crowdcrush_runs/
+experiments/new_crowdcrush_iteration_plots
+experiments/figures/
